@@ -1,0 +1,3 @@
+truffle console
+tasksContract = await TasksContract.deployed()
+task = await taskContract.createTask("Example task", "Example description")
